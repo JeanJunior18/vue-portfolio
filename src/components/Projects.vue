@@ -58,15 +58,17 @@ export default {
 
 <style scoped>
     .projects {
+        flex: .7;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
+        gap: 5px;
     }
 
     .projects .card {
         /* flex: 0; */
-        width: 200px;
+        width: 250px;
     }
 
     .projects .card a {

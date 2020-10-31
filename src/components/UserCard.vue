@@ -48,6 +48,7 @@ export default {
 
 <style scoped>
     .card {
+        flex: .25;
         width: 250px;
         height: 400px;
         display: flex;
@@ -76,4 +77,5 @@ export default {
         width: 40px;
         color: #fff
     }
+
 </style>

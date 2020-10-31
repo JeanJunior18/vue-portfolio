@@ -37,6 +37,8 @@ export default {
 
 .components {
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 body {
